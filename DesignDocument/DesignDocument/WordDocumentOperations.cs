@@ -49,7 +49,8 @@ namespace DesignDocument
             try
             {
                 Application app = (Application)Marshal.GetActiveObject("Word.Application");
-                if (app == null) {
+                if (app == null)
+                {
                     return true;
                 }
 

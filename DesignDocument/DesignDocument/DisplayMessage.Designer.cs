@@ -34,6 +34,7 @@
             this.readTableButton = new System.Windows.Forms.Button();
             this.createTableButton = new System.Windows.Forms.Button();
             this.closeDocsButton = new System.Windows.Forms.Button();
+            this.addRowButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // displayMessageButton
@@ -97,11 +98,22 @@
             this.closeDocsButton.UseVisualStyleBackColor = true;
             this.closeDocsButton.Click += new System.EventHandler(this.closeDocsButton_Click);
             // 
+            // addRowButton
+            // 
+            this.addRowButton.Location = new System.Drawing.Point(111, 359);
+            this.addRowButton.Name = "addRowButton";
+            this.addRowButton.Size = new System.Drawing.Size(171, 43);
+            this.addRowButton.TabIndex = 6;
+            this.addRowButton.Text = "Add Rows";
+            this.addRowButton.UseVisualStyleBackColor = true;
+            this.addRowButton.Click += new System.EventHandler(this.addRowButton_Click);
+            // 
             // DisplayMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(520, 482);
+            this.Controls.Add(this.addRowButton);
             this.Controls.Add(this.closeDocsButton);
             this.Controls.Add(this.readTableButton);
             this.Controls.Add(this.createTableButton);
@@ -128,5 +140,6 @@
         private System.Windows.Forms.Button readTableButton;
         private System.Windows.Forms.Button createTableButton;
         private System.Windows.Forms.Button closeDocsButton;
+        private System.Windows.Forms.Button addRowButton;
     }
 }
