@@ -16,5 +16,10 @@ namespace DesignDocument
         {
             InitializeComponent();
         }
+
+        private void readTableButton_Click(object sender, EventArgs e)
+        {
+            //BrowseDocument getDoc = ;
+        }
     }
 }

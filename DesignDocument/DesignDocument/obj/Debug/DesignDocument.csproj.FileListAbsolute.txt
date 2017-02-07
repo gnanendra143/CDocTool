@@ -8,3 +8,12 @@ C:\Users\GR049524\Documents\Visual Studio 2015\Projects\DesignDocument\DesignDoc
 C:\Users\GR049524\Documents\Visual Studio 2015\Projects\DesignDocument\DesignDocument\bin\Debug\DesignDocument.pdb
 C:\Users\GR049524\Documents\Visual Studio 2015\Projects\DesignDocument\DesignDocument\obj\Debug\DesignDocument.exe
 C:\Users\GR049524\Documents\Visual Studio 2015\Projects\DesignDocument\DesignDocument\obj\Debug\DesignDocument.pdb
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\bin\Debug\DesignDocument.exe.config
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\bin\Debug\DesignDocument.exe
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\bin\Debug\DesignDocument.pdb
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\obj\Debug\DesignDocument.DisplayMessage.resources
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\obj\Debug\DesignDocument.Form1.resources
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\obj\Debug\DesignDocument.Properties.Resources.resources
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\obj\Debug\DesignDocument.csproj.GenerateResource.Cache
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\obj\Debug\DesignDocument.exe
+C:\Users\GR049524\Documents\workspace\cerner_projects\CDocTool\DesignDocument\DesignDocument\obj\Debug\DesignDocument.pdb

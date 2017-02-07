@@ -31,6 +31,9 @@
             this.displayMessageButton = new System.Windows.Forms.Button();
             this.filePathTextBox = new System.Windows.Forms.TextBox();
             this.browseButton = new System.Windows.Forms.Button();
+            this.readTableButton = new System.Windows.Forms.Button();
+            this.createTableButton = new System.Windows.Forms.Button();
+            this.closeDocsButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // displayMessageButton
@@ -64,11 +67,44 @@
             this.browseButton.UseVisualStyleBackColor = true;
             this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
             // 
+            // readTableButton
+            // 
+            this.readTableButton.Location = new System.Drawing.Point(111, 295);
+            this.readTableButton.Name = "readTableButton";
+            this.readTableButton.Size = new System.Drawing.Size(171, 40);
+            this.readTableButton.TabIndex = 4;
+            this.readTableButton.Text = "Read Table";
+            this.readTableButton.UseVisualStyleBackColor = true;
+            this.readTableButton.Click += new System.EventHandler(this.readTableButton_Click);
+            // 
+            // createTableButton
+            // 
+            this.createTableButton.Location = new System.Drawing.Point(111, 220);
+            this.createTableButton.Name = "createTableButton";
+            this.createTableButton.Size = new System.Drawing.Size(171, 42);
+            this.createTableButton.TabIndex = 3;
+            this.createTableButton.Text = "Create Table";
+            this.createTableButton.UseVisualStyleBackColor = true;
+            this.createTableButton.Click += new System.EventHandler(this.createTableButton_Click);
+            // 
+            // closeDocsButton
+            // 
+            this.closeDocsButton.Location = new System.Drawing.Point(70, 13);
+            this.closeDocsButton.Name = "closeDocsButton";
+            this.closeDocsButton.Size = new System.Drawing.Size(212, 36);
+            this.closeDocsButton.TabIndex = 5;
+            this.closeDocsButton.Text = "Close Document";
+            this.closeDocsButton.UseVisualStyleBackColor = true;
+            this.closeDocsButton.Click += new System.EventHandler(this.closeDocsButton_Click);
+            // 
             // DisplayMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 402);
+            this.ClientSize = new System.Drawing.Size(520, 482);
+            this.Controls.Add(this.closeDocsButton);
+            this.Controls.Add(this.readTableButton);
+            this.Controls.Add(this.createTableButton);
             this.Controls.Add(this.browseButton);
             this.Controls.Add(this.filePathTextBox);
             this.Controls.Add(this.displayMessageButton);
@@ -77,6 +113,7 @@
             this.Name = "DisplayMessage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DisplayMessage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DisplayMessage_FormClosing);
             this.Load += new System.EventHandler(this.DisplayMessage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -88,5 +125,8 @@
         private System.Windows.Forms.Button displayMessageButton;
         private System.Windows.Forms.TextBox filePathTextBox;
         private System.Windows.Forms.Button browseButton;
+        private System.Windows.Forms.Button readTableButton;
+        private System.Windows.Forms.Button createTableButton;
+        private System.Windows.Forms.Button closeDocsButton;
     }
 }
